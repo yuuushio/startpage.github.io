@@ -145,7 +145,7 @@ input_g.addEventListener("keypress", function (event) {
 
 /*
  * Mode specific css styling
-*/
+ */
 function dark_colors() {
   let link = document.getElementsByTagName("a");
   let mode_id = document.getElementById("mode");
