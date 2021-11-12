@@ -1,60 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>HOME</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<body>
+  <button class="mode_class">
+    <img src="ico/sun.png" id="mode" height="24" />
+  </button>
+
+  <body>
     <div class="container">
-        <div class="left-container">
-            <div class="gif">
-<!--
+      <div class="left-container">
+        <div class="info">
+          <p id="time"></p>
+          <br />
+        </div>
+        <div class="gif">
+          <!--
                 <img src="ico/ac3.webp" id="ac" height="300">
 -->
-                <img src="ico/ac1.png" id="ac" height="300">
-            </div>
+          <img src="ico/ac1.png" id="ac" height="300" />
         </div>
+      </div>
 
-        <div class="right-container">
-            <div class="head">
-<!--
+      <div class="right-container">
+        <div class="head">
+          <!--
                 <form id="search-bar" name="search-bar">
 -->
-		<input type="text" id="input" name="input" autocomplete="off" title="Press 'S' to focus!" placeholder="DuckDuckGo"/><br>
-		<input type="text" id="inputgoogle" name="inputgoogle" autocomplete="off" title="Press 'S' to focus!" placeholder="Google"/><br>
-<!--
+          <form id="search-bar" name="search-bar">
+            <input
+              type="text"
+              id="input"
+              name="input"
+              autocomplete="off"
+              title="Press 'S' to focus!"
+              placeholder="DuckDuckGo"
+            /><br />
+            <input
+              type="text"
+              id="inputgoogle"
+              name="inputgoogle"
+              autocomplete="off"
+              title="Press 'S' to focus!"
+              placeholder="Google"
+            /><br />
+          </form>
+          <!--
     </form>
 -->
-            </div>
-
-            <div class="bookmarks">
-                <div class="category">
-                    <div class="links">
-                       <li><a href="https://www.youtube.com/feed/subscriptions" id="youtube">YouTube</a><li>
-                       <li><a href="https://www.twitch.tv/" id="twitch">Twitch</a><li>
-						<li><a href="https://www.notion.so/" id="reddit">Notion</a><li>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="links">
-                        <li><a href="https://github.com/">Github</a></li>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="links">
-                        <li><a href="https://www.reddit.com/r/unixporn/" id="arch">UnixP</a></li>
-                    </div>
-                </div>
-
-                
-            </div>
         </div>
-    </div>
-</body>
 
+        <div class="bookmarks">
+          <div class="category">
+            <div class="links">
+              <li>
+                <a
+                  href="https://www.youtube.com/feed/subscriptions"
+                  id="youtube"
+                  >YouTube</a
+                >
+              </li>
+              <li></li>
+              <li><a href="https://www.twitch.tv/" id="twitch">Twitch</a></li>
+              <li></li>
+              <li><a href="https://www.notion.so/" id="reddit">Notion</a></li>
+              <li></li>
+            </div>
+          </div>
+
+          <div class="category">
+            <div class="links">
+              <li><a href="https://github.com/">Github</a></li>
+              <li><a href="https://www.reddit.com/r/unixporn/" id="arch">UnixP</a></li>
+            </div>
+          </div>
+
+          <div class="category">
+            <div class="links">
+                <li><a href="https://animixplay.to/" id="animix">AniMix</a></li>
+                <li><a href="https://gogoanime.cm/" id="arch">GoGoAnime</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script async type="text/javascript" src="script.js"></script>
+  </body>
 </html>
