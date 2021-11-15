@@ -188,3 +188,8 @@ a:hover {
 .links:hover {
   color: #88c0d0;
 }
+
+#time {
+font-family: "Mononoki Nerd Font Mono";
+    font-size: 15px;
+}

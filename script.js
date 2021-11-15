@@ -7,26 +7,28 @@ else mode = localStorage.getItem("data");
 /*
  * Get time
  */
-window.addEventListener("load", (event) => {
-  let today = new Date();
-  let time = today.toLocaleTimeString([], {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-  change_colors(mode);
-  displayTime(time);
+function formatAMPM(date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+}
 
-  //auto focus ddg-search upon page load
-  document.getElementById("input").focus();
+
+window.addEventListener('load', (event) => {
+    let today = new Date();
+    let time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    change_colors(mode);
+    displayTime(formatAMPM(new Date));
+    document.getElementById("input").focus();
 });
 
 setInterval(function () {
-  var today = new Date();
-  var time = today.toLocaleTimeString([], {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-  document.getElementById("time").innerHTML = time;
+  document.getElementById("time").innerHTML = formatAMPM(new Date);
 }, 1000);
 
 /*
@@ -145,7 +147,7 @@ input_g.addEventListener("keypress", function (event) {
 
 /*
  * Mode specific css styling
- */
+*/
 function dark_colors() {
   let link = document.getElementsByTagName("a");
   let mode_id = document.getElementById("mode");
