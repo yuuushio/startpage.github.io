@@ -6,9 +6,9 @@ If you've used the Brave Browser before, you'll know that you cannot directly se
 For firefox, though, signing extensions seemed like a big hassle, and thus gave up on that idea. Which is also the main reason for hosting this repo as a static website via github; unlike Brave Browser, Firefox allows you to set the home/new tab page to a specific link - this repo would end up being that link, thereby giving you the landing page previewed below.
 
 ## Preview
-[a](/ico/dark_preview.png)
+[](/ico/dark_preview.png)
 
-[b](ico/light_preview.png)
+[](ico/light_preview.png)
 
 ## Installation
 
