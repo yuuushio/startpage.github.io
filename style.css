@@ -1,6 +1,6 @@
 html,
 body {
-  background: #242933;
+  background: #1e1e2e;
   font-family: "Mononoki Nerd Font Mono";
   color: #eadbb2;
   height: 100%;
@@ -51,7 +51,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;*/
   padding: 10px;
-  border: 1px solid #81a1c1;
+  border: 1px solid #F2CDCD;
   /*
   border: 1px solid #88c0d0;
   border-radius:6px;
@@ -81,12 +81,12 @@ body {
   background: rgba(36, 40, 49, 0.1);
   border: 1px solid rgba(0, 0, 0, 0);
 
-  border-bottom: 2px solid #81a1c1;
+  border-bottom: 2px solid #89DCEB;
 
   border-radius: 4px;
 
   /*border: 2px solid rgba(59, 66, 82, 0.2);*/
-  color: #81a1c1;
+  color: #89DCEB;
   font-size: 14px;
   font-family: "JetBrains Mono Regular Nerd Font Complete Mono", monospace;
   /*	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;*/

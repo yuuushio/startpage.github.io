@@ -151,7 +151,7 @@ input_g.addEventListener("keypress", function (event) {
 function dark_colors() {
   let link = document.getElementsByTagName("a");
   let mode_id = document.getElementById("mode");
-  document.body.style.background = "#242933";
+  document.body.style.background = "#1e1e2e";
   mode_id.src = "ico/light.png";
   mode_id.style.filter =
     "invert(100%) sepia(18%) saturate(3654%) hue-rotate(177deg) brightness(100%) contrast(84%)";
@@ -161,25 +161,25 @@ function dark_colors() {
   img_id.height = "300";
 
   let img_container = document.getElementsByClassName("gif");
-  img_container[0].style.border = "2px solid #81a1c1";
+  img_container[0].style.border = "3px solid #302D41";
   img_container[0].style.borderRadius = "5px";
   img_container[0].style.boxShadow =
     "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px";
 
   let main_cont = document.getElementsByClassName("container");
-  main_cont[0].style.background = "#242933";
+  main_cont[0].style.background = "#1e1e2e";
 
-  for (i = 0; i < link.length; i++) link[i].style.color = "#81a1c1";
+  for (i = 0; i < link.length; i++) link[i].style.color = "rgba(201, 203, 255, 0.8)";
 
   let time_id = document.getElementById("time");
-  time_id.style.color = "#81a1c1";
+  time_id.style.color = "#C9CBFF";
   let input_i = document.getElementById("input");
   input_i.style.background = "rgba(59, 66, 82, 0.1)";
-  input_i.style.borderBottom = "2px solid #81a1c1";
+  input_i.style.borderBottom = "2px solid #575268";
   let input_g = document.getElementById("inputgoogle");
 
   input_g.style.background = "rgba(59, 66, 82, 0.1)";
-  input_g.style.borderBottom = "2px solid #81a1c1";
+  input_g.style.borderBottom = "2px solid #575268";
 
   let list_s = document.getElementById("ls");
 
