@@ -7,7 +7,7 @@ For firefox, though, signing extensions seemed like a big hassle, and thus gave 
 - Set Firefox home/new tab to land on `https://yuuushio.github.io/startpage.github.io/`
 
 ## Preview
-![a](https://github.com/yuuushio/nordstartpage.github.io/blob/main/ico/preview_dark.png)
 
-![b](https://github.com/yuuushio/nordstartpage.github.io/blob/main/ico/preview_light.png)
+
+
 
