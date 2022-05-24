@@ -11,6 +11,8 @@ For firefox, though, signing extensions seemed like a big hassle, and thus gave 
 
 <img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/ctp-dark-pw.jpg" width="700"/>
 
+### Light Mode
+
 <img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/nord-light-pw.jpg" width="700"/>
 
 
