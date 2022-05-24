@@ -9,9 +9,9 @@ For firefox, though, signing extensions seemed like a big hassle, and thus gave 
 ## Preview
 ### Dark Mode
 
-<img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/ctp-dark-pw.jpg" width="600"/>
+<img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/ctp-dark-pw.jpg" width="700"/>
 
-<img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/nord-light-pw.jpg" width="600"/>
+<img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/nord-light-pw.jpg" width="700"/>
 
 
 
