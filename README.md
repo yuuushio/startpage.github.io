@@ -7,7 +7,11 @@ For firefox, though, signing extensions seemed like a big hassle, and thus gave 
 - Set Firefox home/new tab to land on `https://yuuushio.github.io/startpage.github.io/`
 
 ## Preview
+### Dark Mode
 
+<img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/ctp-dark-pw.jpg" width="600"/>
+
+<img src="https://raw.githubusercontent.com/yuuushio/startpage.github.io/main/previews/nord-light-pw.jpg" width="600"/>
 
 
 
