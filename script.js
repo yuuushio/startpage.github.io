@@ -157,8 +157,8 @@ function dark_colors() {
     "invert(100%) sepia(18%) saturate(3654%) hue-rotate(177deg) brightness(100%) contrast(84%)";
 
   let img_id = document.getElementById("ac");
-  img_id.src = "ico/ac1.png";
-  img_id.height = "300";
+  img_id.src = "ico/retg.png";
+  img_id.height = "350";
 
   let img_container = document.getElementsByClassName("gif");
   img_container[0].style.border = "3px solid #302D41";
